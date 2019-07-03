@@ -52,7 +52,7 @@ function showGreeting(message) {
 
 function showTest(){
 	$.ajax({
-        url : 'http://localhost:8080/test',
+        url : '/test',
         success : function(data) {
             $("#result").text(data);
         }
